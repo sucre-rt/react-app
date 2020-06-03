@@ -15,6 +15,8 @@ import React, {useState, useEffect} from 'react';
 
 const LikeButton = (props) => {
 
+  const test = "test"
+
   const [count, counter] = useState(0);
   const [limit, release] = useState(true);
 
