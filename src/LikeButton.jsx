@@ -22,6 +22,8 @@ const LikeButton = (props) => {
     counter(count + 1)
   }
 
+  const test = "testttest"
+
   useEffect(() => {
     // console.log('render')
     document.getElementById('counter').addEventListener('click', countUp)
